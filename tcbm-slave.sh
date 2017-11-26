@@ -14,7 +14,7 @@ PROCESSING=No #(noch zu programmieren ist nur ein vorübergender platzhalter)
 LAST_SLAVELOG="STARTUPSLAVE" #text für logfile bei Computerneustart
 
 
-rm ~/.tcbm/slave/last_slavelog.txt
+rm ~/.tcbm/slave/last_slavelog.txt      dsfsd
 rm ~/.tcbm/slave/slavelog.txt #nur vorübergehend zur fehlersuche
 
 	echo $LAST_SLAVELOG >> ~/.tcbm/slave/last_slavelog.txt
